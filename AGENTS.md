@@ -1,3 +1,5 @@
+> **UNIIMENTE work in this fork:** Before new or resumed work, read [the founder Discussion](https://github.com/dababiyoda/uniimente-kernel/discussions/89), [the pinned collaboration SOP](https://github.com/dababiyoda/uniimente-kernel/blob/2ccbbe2bf553df45df3dac777dc45f825760dd45/docs/collaboration/START_HERE.md), and [live work claims/handoffs](https://github.com/dababiyoda/uniimente-kernel/issues/96). Inspect relevant open PRs and exact heads, identify your actual session and bounded files/interfaces, and acknowledge overlaps before editing. Preserve the local instructions below. This addition governs Alfonso's UNIIMENTE work in this fork; do not send this fork-specific rollout upstream. The source package is draft #193 pending adoption; metadata checks are not locks or authority.
+
 # Repository Guidelines
 
 ## Product Direction
@@ -122,3 +124,4 @@ Read `docs/README.md` inside that installed package first, then read the relevan
 
 This block is written and re-added by `turbo` before repository-scoped commands when an AI agent is detected. In the Turborepo source repository, its template is defined in `crates/turborepo-cli/src/cli/agent_guidance.rs`. Removing the managed block while updates are enabled means a later qualifying invocation will add it again. Set `"agentGuidance": false` in the root `turbo.json` or `turbo.jsonc` to opt out; this does not remove an existing block. Keep the block committed with your work to avoid an uncommitted change on the next agent invocation.
 <!-- END:turborepo-agent-rules -->
+
